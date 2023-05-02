@@ -8,7 +8,8 @@ Assesment Objectives:
 - Using the word representations given by word2vec to feed a RNN and training the model
 - Evaluating the model and plotting the performance graphs
 - Improving the model by Transfer Learning
-- Testing the model
+- Comparing Accuracy of Baseline model, The model and Improved model.
+- Testing the model (predicting the model with new review)
 
 1. The Data:
  - Starting with 20% of the sentences from TensorFlow Datasets of IMDB reviews to check the RAM compatibility of the PC to train the model faster by          splitting the datasets as X_train, y_train, X_test and y_test.
@@ -25,5 +26,7 @@ Assesment Objectives:
  - The accuracy of the above the baseline model, might be quite low. By improving the quality of the embedding we can Improve accuracy of the model.
  - Let's improve the quality of our embedding, instead of just loading a larger corpus, let's benefit from the embedding that others have learned. Because,    the quality of an embedding, i.e. the proximity of the words, can be derived from different tasks. This is exactly what transfer learning is.
  
-6. Testing the model for new review.
+7. Comparing Accuracy of Baseline model, The model and Improved model. 
+
+6. Testing/predicting the model for new review.
    
