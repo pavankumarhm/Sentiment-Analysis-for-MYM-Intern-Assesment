@@ -3,13 +3,13 @@
 Text Sentiment Analysis of IMDB Movie reviews using NLP (Word2Vec and RNN) for MYM Intern Assesment
 
 Assesment Objectives:
-- Preprocessing the data
-- Converting Text(words) to Vectors using word2vec
-- Using the word representations given by word2vec to feed a RNN and training the model
-- Evaluating the model and plotting the performance graphs
-- Improving the model by Transfer Learning
-- Comparing Accuracy of Baseline model, The model and Improved model.
-- Testing the model (predicting the model with new review)
+ - Preprocessing the data
+ - Converting Text(words) to Vectors using word2vec
+ - Using the word representations given by word2vec to feed a RNN and training the model
+ - Evaluating the model and plotting the performance graphs
+ - Improving the model by Transfer Learning
+ - Comparing Accuracy of Baseline model, The model and Improved model.
+ - Testing the model (predicting the model with new review)
 
 1. The Data:
  - Starting with 20% of the sentences from TensorFlow Datasets of IMDB reviews to check the RAM compatibility of the PC to train the model faster by          splitting the datasets as X_train, y_train, X_test and y_test.
